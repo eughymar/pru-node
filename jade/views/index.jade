@@ -1,0 +1,13 @@
+extends layout
+
+block contenido
+	div#container
+		h1= title
+		p Bienvenid@ este es un ejemplo del uso de plantillas Jade con Node en Express
+
+block lateral-izquierdo
+	h3 Registrate
+	include formulario
+
+block lateral-derecho
+	p Menú lateral Derecho

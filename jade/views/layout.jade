@@ -1,0 +1,39 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/alerta.js')
+  body
+    header
+      h1 Plantillas Express - Jade - MAry Rosales
+    .container
+      - if (typeof(izquierda) !== 'undefined') {
+        .sidebar-left
+          block lateral-izquierdo
+      -}
+      - if (typeof(contenido) !== 'undefined') {
+         - if (typeof(izquierda) == 'undefined') {
+           .main-content.extendidod
+            block contenido
+         -}	
+         - else {
+           - if (typeof(derecha) == 'undefined') {
+            .main-content.extendidoi
+              block contenido
+           -}
+           - else {
+            .main-content
+              block contenido
+           -}
+         -}
+      -}
+
+      - if (typeof(derecha) !== 'undefined') {
+        .sidebar-right
+          block lateral-derecho
+      -}
+
+    footer
+      p Express - Plantillas Jade
+      p By - MRosales

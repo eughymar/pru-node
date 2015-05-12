@@ -1,0 +1,92 @@
+html {
+max-width: 1132px;
+margin: auto;
+font-family: "Droid Sans", "Helvetica Neue", "Nimbus Sans L", sans-serif;
+}
+
+body {
+  /*padding: 10px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+
+a {
+  color: #00B7FF;
+}
+ 
+/*#container{
+	background: #ccc url('../images/node.jpg') no-repeat bottom right;
+	border: 1px solid #999;
+	padding: 10px;	
+	min-height: 300px;
+}*/
+
+#container h1{
+	background: #666;
+	color: #fff;
+	padding:10px;
+	margin: 0px;
+	text-align: center;
+	border: 2px solid #444;
+}
+
+.container{
+	width: 100%;
+	float: left;
+
+}
+
+.sidebar-left{
+	width: 20%;
+	float: left;
+	padding: 10px;
+	background: #ccc;
+	border: 1px solid #999;
+	min-height: 300px;
+	min-width: 200px;
+	margin-bottom: 15px;
+
+}
+
+.main-content{
+	width: 50%;
+	float: left;
+	margin: 0 2% 0 2%;
+	padding: 10px;
+	background: #ccc url('../images/node.jpg') no-repeat bottom right;
+	border: 1px solid #999;
+	min-height: 300px;
+	min-width: 200px;
+	margin-bottom: 15px;
+}
+.extendidod{
+	width: 74%;
+	margin: 0 2% 0 0;
+}
+.extendidoi{
+	width: 74%;
+	margin: 0 0 0 2%;
+}
+
+.sidebar-right{
+	width: 20%;
+
+	float: left;
+	padding: 10px;
+	background: #ccc;
+	border: 1px solid #999;
+	min-height: 300px;
+	min-width: 200px;
+	margin-bottom: 15px;
+}
+
+footer{
+background: #ccc;
+border: 1px solid #999;
+float: left;
+width: 100%;
+min-height: 50px;
+}
+
+footer p{
+	margin: 10px;
+}
